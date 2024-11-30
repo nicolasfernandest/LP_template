@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div>
                         <h3>${user.name.first} ${user.name.last}</h3>
                         <p>"${depoimentoAleatorio}"</p>
+                        <p> - ${user.location.city}, ${user.location.country}</p>
                     </div>
                 `;
                 container.appendChild(testemunhoDiv);
