@@ -1,45 +1,71 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML5>
 <html lang="pt-br">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Vendas</title>
+    <title>Reset VIP - Transforme sua Vida</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
+
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            color: #333;
-            background-color: #f9f9f9;
+            color: #f9f9f9;
+            background-color: #000;
+            height: 100vh;
+            background-image: url("images/trianglebg.gif");
+            background-size: cover;
         }
+
         header {
-            background: #4CAF50;
+            background: rgb(55, 245, 160, 0.5);
             color: #fff;
             padding: 1rem 0;
             text-align: center;
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 25px;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem 2rem;
+            z-index: 1000;
         }
+
         .container {
+            text-align: center;
             max-width: 800px;
             margin: 2rem auto;
             padding: 1rem;
-            background: #fff;
+            background: #121212;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
         }
+
         h1, h2, h3 {
             margin-bottom: 1rem;
         }
+
         p {
             margin-bottom: 1rem;
         }
+
         .cta {
             text-align: center;
             margin: 2rem 0;
         }
+
         .cta a {
             background: #4CAF50;
             color: #fff;
@@ -49,48 +75,120 @@
             border-radius: 5px;
             transition: background 0.3s;
         }
+
         .cta a:hover {
-            background: #45a049;
+            background: #227550;
         }
+
         footer {
             text-align: center;
             margin-top: 2rem;
             font-size: 0.9rem;
             color: #777;
+            background: rgb(55, 245, 160, 0.5);
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 25px;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem 2rem;
+            z-index: 1000;
         }
+
+        li{
+            list-style-type: none;
+        }
+
+        /* Setor de Depoimentos */
+        #testemunhos {
+            padding: 10px;
+        }
+
+        .testemunho-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .testemunho {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+        }
+
+        .testemunho img {
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .testemunho h3 {
+            font-size: 18px;
+            color: #333;
+            margin: 0;
+        }
+
+        .testemunho p {
+            font-size: 16px;
+            color: #666;
+            margin: 5px 0;
+        }
+
     </style>
 </head>
 <body>
-    <header>
-        <h1>Transforme sua vida hoje!</h1>
+    <header class="navbar">
+        <h1>Reset VIP - Transforme sua Vida</h1>
     </header>
 
     <div class="container">
-        <h2>O que você vai aprender?</h2>
-        <p>Descubra como alcançar seus objetivos com estratégias práticas e comprovadas. Este produto é perfeito para quem busca resultados reais.</p>
+        <h2>O que é o Reset VIP?</h2>
+        <p>O Reset VIP é um programa de aconselhamento nutricional por 21 dias, desenvolvido pelos nutricionistas Thiago Monteiro e Igor Caleb. Com um método acessível e eficaz, o programa ajuda você a adotar um estilo de vida saudável e transformador.</p>
 
-        <h3>Benefícios:</h3>
+        <h3>Benefícios do Programa:</h3>
         <ul>
-            <li>Aprenda no seu próprio ritmo.</li>
-            <li>Aumente sua produtividade.</li>
-            <li>Tenha acesso vitalício ao conteúdo.</li>
+            <li>Cardápios personalizados e disponíveis via aplicativo.</li>
+            <li>Metas diárias para destravar o emagrecimento.</li>
+            <li>Gamificação com ranking e premiações para os melhores participantes.</li>
+            <li>Ebooks exclusivos com orientações práticas.</li>
+            <li>Aulas semanais via YouTube e uma comunidade de apoio.</li>
         </ul>
 
+        <h3>Por que participar?</h3>
+        <p>O Desafio Reset já transformou a vida de mais de 5 mil alunos. Com um método validado e acessível, você pode alcançar seus objetivos de maneira saudável e motivadora. Junte-se a uma comunidade que compartilha do mesmo propósito!</p>
+
         <div class="cta">
-            <a href="#" target="_blank">Compre Agora</a>
+            <a href="https://hotm.art/krxNrE" target="_blank">Quero Participar Agora</a>
         </div>
 
         <h3>Depoimentos de Sucesso:</h3>
-        <blockquote>
-            "Este curso mudou minha vida! Estou mais confiante e produtivo do que nunca." - Cliente Satisfeito
-        </blockquote>
-        <blockquote>
-            "Superou todas as minhas expectativas! Recomendo." - Cliente Feliz
-        </blockquote>
+        <section id="testemunhos" data-aos="fade-up">
+            <div class="testemunho-container" id="testemunho-container">
+                <!-- Os depoimentos serão inseridos aqui dinamicamente -->
+            </div>
+        </section>
     </div>
 
     <footer>
-        <p>&copy; 2024 Sua Marca. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Reset VIP. Todos os direitos reservados.</p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="randomuser.js"></script>
 </body>
 </html>
